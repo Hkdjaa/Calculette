@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+header {
+    background-color:#a19f0e;
+    color: rgb(53, 51, 51);
+    text-align: center;
+    padding: 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+    form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+label{
+    font-family: cursive;
+    font-size: x-large;
+    color: #a19f0e;
+}
+#num1{
+    background-color: black;
+    color: beige;
+    border: 5px;
+    border-color:#a19f0e;
+    border-style: inset;
+}
+#num2{
+    background-color: black;
+    color: beige;
+    border: 5px;
+    border-color:#a19f0e;
+    border-style: inset;
+}
+#op{
+    background-color: black;
+    color: beige;
+    border: 5px;
+    border-color:#a19f0e;
+    border-style: inset;
+}
+#calcul{
+    background-color: #a19f0e;
+    color: rgb(41, 40, 40);
+    font-size: x-large;
+}
+#calcul:hover {
+    color:#a19f0e;
+    text-decoration: underline;
+    font-family: Comic Sans MS;
+    background-color: transparent;
+    font-size: x-large;
+}
